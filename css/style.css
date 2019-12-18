@@ -31,4 +31,25 @@ body{
     box-shadow: 2px 5px 20px #111;
     transform: translateY(-1px);
 }
+.search-input{
+	background: transparent;
+	border: none;
+	border-radius: 0;
+	border-bottom: 2px solid #999; 
+	transition: all 0.4s;
+}
+.search-input:focus{
+	background: transparent;
+	text-shadow: none;
+	border-bottom: 2px solid #dc3545;
+}
+.search-button{
+	border-radius: 50px;
+	padding: 10px 10px;
+	background-color: #eee;
+}
+.search-button:hover{
+	background-color: #ccc;
+	transform: translateY(-1px);
+}
 /*end of navbar*/
